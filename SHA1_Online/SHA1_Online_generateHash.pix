@@ -807,19 +807,6 @@
         <Text></Text>
         <_activityFullName>Activities.Web.GetText</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i95" i:type="ExecutedStep">
-        <Childs />
-        <Id>077cda43-6243-44b4-a25d-483fe58fd3c4</Id>
-        <Parent z:Ref="i2" />
-        <PropertyValues />
-        <SelectedOptionId>0</SelectedOptionId>
-        <AutoCloseMode>None</AutoCloseMode>
-        <EnableStatus>true</EnableStatus>
-        <ExceptionHandlingMode>Default</ExceptionHandlingMode>
-        <RetryCount>-1</RetryCount>
-        <Text></Text>
-        <_activityFullName>BR.Core.Base.Sleep</_activityFullName>
-      </AbstractStep>
     </Childs>
     <Id>7eb44086-7568-4e08-8ebe-318594283f41</Id>
     <Parent i:nil="true" />
@@ -835,21 +822,21 @@
   <Name>SHA1_Online_generateHash.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i96">
+    <Parameter z:Id="i95">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>in_str_genHashInfo</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.String</TypeString>
     </Parameter>
-    <Parameter z:Id="i97">
+    <Parameter z:Id="i96">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dict_config</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
-    <Parameter z:Id="i98">
+    <Parameter z:Id="i97">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>out_str_sha1</Name>
