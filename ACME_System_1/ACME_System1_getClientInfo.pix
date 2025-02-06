@@ -375,7 +375,7 @@
           <PropertyValue z:Id="i46">
             <PropertyName>To</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>regexID</_expression>
+            <_expression>str_regexID</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -405,7 +405,7 @@
           <PropertyValue z:Id="i49">
             <PropertyName>To</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>regexName</_expression>
+            <_expression>str_regexName</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -435,7 +435,7 @@
           <PropertyValue z:Id="i52">
             <PropertyName>To</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>regexCountry</_expression>
+            <_expression>str_regexCountry</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -457,7 +457,7 @@
           <PropertyValue z:Id="i54">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>Regex.Match(str_clientInfo, regexID).Groups[1].Value;</_expression>
+            <_expression>Regex.Match(str_clientInfo, str_regexID).Groups[1].Value;</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -487,7 +487,7 @@
           <PropertyValue z:Id="i57">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>Regex.Match(str_clientInfo, regexName).Groups[1].Value</_expression>
+            <_expression>Regex.Match(str_clientInfo, str_regexName).Groups[1].Value</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
@@ -517,7 +517,7 @@
           <PropertyValue z:Id="i60">
             <PropertyName>Value</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>Regex.Match(str_clientInfo, regexCountry).Groups[1].Value;</_expression>
+            <_expression>Regex.Match(str_clientInfo, str_regexCountry).Groups[1].Value;</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />

@@ -2133,8 +2133,8 @@
                         <d7p1:XPathAttribute z:Id="i251">
                           <d7p1:IsEnabled>true</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
-                          <d7p1:Operator>Equal</d7p1:Operator>
-                          <d7p1:Value>'Подтвердите действие на acme-test.uipath.com'</d7p1:Value>
+                          <d7p1:Operator>Contains</d7p1:Operator>
+                          <d7p1:Value>'Подтвердите действие'</d7p1:Value>
                           <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
                           <d7p1:_name>Name</d7p1:_name>
                         </d7p1:XPathAttribute>
@@ -2501,8 +2501,8 @@
                         <d7p1:XPathAttribute z:Id="i293">
                           <d7p1:IsEnabled>true</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
-                          <d7p1:Operator>Equal</d7p1:Operator>
-                          <d7p1:Value>'Подтвердите действие на acme-test.uipath.com'</d7p1:Value>
+                          <d7p1:Operator>Contains</d7p1:Operator>
+                          <d7p1:Value>'Подтвердите действие'</d7p1:Value>
                           <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
                           <d7p1:_name>Name</d7p1:_name>
                         </d7p1:XPathAttribute>
@@ -2911,8 +2911,8 @@
                         <d7p1:XPathAttribute z:Id="i338">
                           <d7p1:IsEnabled>true</d7p1:IsEnabled>
                           <d7p1:IsPositionAttribute>false</d7p1:IsPositionAttribute>
-                          <d7p1:Operator>Equal</d7p1:Operator>
-                          <d7p1:Value>'Подтвердите действие на acme-test.uipath.com'</d7p1:Value>
+                          <d7p1:Operator>Contains</d7p1:Operator>
+                          <d7p1:Value>'Подтвердите действие'</d7p1:Value>
                           <d7p1:_isCSharpExpression>false</d7p1:_isCSharpExpression>
                           <d7p1:_name>Name</d7p1:_name>
                         </d7p1:XPathAttribute>
